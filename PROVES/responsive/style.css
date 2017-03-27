@@ -1,0 +1,14 @@
+
+
+/* Importem els estils per a una tauleta*/
+@import url('escriptori.css') screen;
+
+/* Importem els estils per a una tauleta*/
+@import url('tablet_h.css') screen;
+@import url('tablet_v.css') screen;
+
+/* Importem els estils per a un telefon*/
+@import url('phone_h.css') screen;
+@import url('phone_v.css') screen;
+
+

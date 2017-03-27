@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="Google Web Designer 1.7.0.1114">
+    <meta name="template" content="Expandable 3.0.0">
+    <meta name="environment" content="undefined">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css" id="gwd-lightbox-style">
+      .gwd-lightbox {
+        overflow: hidden;
+      }
+    </style>
+    <style type="text/css" id="gwd-text-style">
+      p {
+        margin: 0;
+      }
+      h1 {
+        margin: 0;
+      }
+      h2 {
+        margin: 0;
+      }
+      h3 {
+        margin: 0;
+      }
+    </style>
+    <style type="text/css">
+      html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+      }
+      .gwd-page-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+      }
+      .gwd-page-content {
+        background-color: transparent;
+        transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        transform-style: preserve-3d;
+        position: absolute;
+      }
+      .gwd-page-wrapper {
+        background-color: #FFF;
+        position: absolute;
+        transform: translateZ(0);
+      }
+      .banner {
+        width: 1280px;
+        height: 200px;
+      }
+      .expanded {
+        width: 1280px;
+        height: 800px;
+      }
+      .expand-button {
+        position: absolute;
+        width: 1280px;
+        height: 200px;
+        left: 0px;
+        top: 0px;
+      }
+      .close-button {
+        position: absolute;
+        width: 120px;
+        height: 48px;
+        left: 355px;
+        top: 3px;
+        background-image: none;
+        background-color: rgba(153, 153, 153, 0.2);
+      }
+      .close-button-responsive {
+        left: 100%;
+        transform-style: preserve-3d;
+        transform: translate3d(-126px, 0px, 0px);
+      }
+    </style>
+  </head>
+  <body class="document-body">
+    <undefined id="gwd-ad"  >
+      <div is="gwd-pagedeck" class="gwd-page-container" id="pagedeck" default-page="banner-page">
+        <div is="gwd-page" id="banner-page" data-gwd-name="Página de banner" class="gwd-page-wrapper banner gwd-lightbox" data-gwd-width="1280px" data-gwd-height="200px">
+          <div class="gwd-page-content banner">
+            <gwd-taparea id="expand-button" class="expand-button"></gwd-taparea>
+          </div>
+        </div>
+        <div is="gwd-page" id="expanded-page" expanded data-gwd-name="Página expandida" class="gwd-page-wrapper expanded gwd-lightbox" data-gwd-width="1280px" data-gwd-height="800px"  >
+          <div class="gwd-page-content expanded">
+            <gwd-taparea id="close-button" class="close-button"></gwd-taparea>
+          </div>
+        </div>
+      </div>
+    </undefined>
+    <script type="text/javascript" gwd-events="registration">
+      gwd.actions.events.registerEventHandlers = function(event) {
+        gwd.actions.events.addHandler('expand-button', 'action', gwd.handleExpand_buttonAction, false);
+        gwd.actions.events.addHandler('close-button', 'action', gwd.handleClose_buttonAction, false);
+        
+        
+      };
+      gwd.actions.events.deregisterEventHandlers = function(event) {
+        gwd.actions.events.removeHandler('expand-button', 'action', gwd.handleExpand_buttonAction, false);
+        gwd.actions.events.removeHandler('close-button', 'action', gwd.handleClose_buttonAction, false);
+        
+      };
+
+      document.addEventListener("DOMContentLoaded", gwd.actions.events.registerEventHandlers);
+      document.addEventListener("unload", gwd.actions.events.deregisterEventHandlers);
+    </script>
+    <script type="text/javascript" gwd-events="handlers">
+      gwd.handleExpand_buttonAction = function() {
+        // GWD Predefined Function
+        gwd.actions.gwdGenericad.goToPage('gwd-ad', 'expanded-page');
+      };
+
+      gwd.handleClose_buttonAction = function() {
+        // GWD Predefined Function
+        gwd.actions.gwdGenericad.goToPage('gwd-ad', 'banner-page');
+      };
+      
+    </script>
+
+    <script type="text/javascript" id="gwd-init-code">
+      (function() {
+var gwdAd = document.getElementById('gwd-ad');
+
+/**
+ * Handles the DOMContentLoaded event. The DOMContentLoaded event is
+ * fired when the document has been completely loaded and parsed.
+ */
+function handleDomContentLoaded(event) {
+
+}
+
+/**
+ * Handles the WebComponentsReady event. This event is fired when all
+ * custom elements have been registered and upgraded.
+ */
+function handleWebComponentsReady(event) {
+  // Start the Ad lifecycle.
+  setTimeout(function() {
+    gwdAd.initAd();
+  }, 0);
+}
+
+/**
+ * Handles the event that is dispatched after the Ad has been
+ * initialized and before the default page of the Ad is shown.
+ */
+function handleAdInitialized(event) {
+}
+
+window.addEventListener('DOMContentLoaded',
+    handleDomContentLoaded, false);
+window.addEventListener('WebComponentsReady',
+    handleWebComponentsReady, false);
+window.addEventListener('adinitialized',
+    handleAdInitialized, false);
+})();
+    </script>
+  </body>
+</html>

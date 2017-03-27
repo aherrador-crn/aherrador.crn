@@ -1,0 +1,41 @@
+
+
+		div{padding: top: 50px;}
+		body{font-family: Helvetica; 
+			font-size: 20px; 
+			line-height: 24px; 
+			margin:0; }
+
+		
+		h1 {margin:0 50px 50px 50px; 
+
+			line-height:48px; 
+			line-height: 48px}
+
+		p {width: 400px; margin: 10px 50px; }
+
+
+		a:link {margin:10px; text-decoration: none; color:#363;}
+
+		a:hover{margin:10px; color:#3C3;}
+
+		a:active{margin:10px; color:#F00;}
+
+
+
+		#barra{height:40px ; background-image: url("img/feedly-logo-small-black.png"); background-repeat:  no-repeat; background-position: 50px 5px; padding-top: 50px ;font-size:16px ;}
+		#coneix{background-color: #6C3;height:550px ; background-image: url("img/img-hero-full-list.png"); background-repeat: no-repeat; background-position: 450px 50px; }
+		#tot{ height:641px ; background-image: url("img/allinone.jpg"); background-repeat: no-repeat; background-position: 450px 50px; }
+		#util{background-color: #333;height:500px ; background-image: url("img/curator-short.png"); background-repeat: no-repeat; background-position: 450px 50px;  }
+		#rapid{background-color: #EEECEE;height:550px ;background-image: url("img/img-hero-full-list.png"); background-repeat: no-repeat; background-position: 450px 50px;  }
+		#facil{background-color: #6C3; height:550px ; background-image: url("img/mobile-share.png"); background-repeat: no-repeat; background-position: 450px 65px; }
+		#arreu{background-color: #EEECEE;height:643px ; background-image: url("img/anywhere.png"); background-repeat: no-repeat; background-position: 450px 50px; }
+		#canvia{background-color: #333;height:200px ;background-repeat: no-repeat; background-position: 450px 50px; text-align:center;  }
+
+
+		#menu { width: 800px; background-color: ; float: right; padding-top: 10px}
+
+
+
+
+

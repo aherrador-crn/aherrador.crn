@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<style>
+		/*Passos per fer aplicar un filtre*/
+			div{
+				background-color: red;
+				height: 100px;
+				width: 100px;
+				filter: hue-rotate(180deg);
+				-webkit-filter: drop-shadow(10px 10px 10px black) hue-rotate(270deg);
+			}
+		/*Passos per fer una animació (en concret rebotar) */
+
+			div {
+				animation: rebotar 2s linear 5s infinite forwards;
+			}
+
+			@keyframes rebotar{
+				0%{
+				transform: scale (0.1);
+				opacity: 0;
+				}
+
+				50%{
+				transform:scale(1.2);
+				opacity:1;
+				}
+
+				100%{
+				transform: scale(1);
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div></div>
+	</body>
+	</html>	

@@ -1,0 +1,293 @@
+body { background-color: #e9ebee;
+	margin: 0;
+	font-family: 'Lucida Grande', Tahoma, Sans-serif;
+
+}
+
+
+
+h3{ 
+	margin:0;
+	padding:0px 16px;
+	font-size:0,96em;
+	font-weight: 400;
+	background-image:  url(img/spritelateral.png);
+	background-repeat: no-repeat;
+	text-indent:15px;
+	height: 24px;
+	background-color: orange; 
+	background-position: 0px 0px;
+	margin-left: 16px;
+	margin-top: 16px;
+	
+}
+
+
+#fotos h3{
+	background-position: 0 -24px;
+
+}
+
+
+#amics h3{
+	background-position: 0 -41px;
+
+}
+#barra {
+	height: 46px;
+	background-color: #3b5998;
+	margin: 0;
+	position:fixed;
+	right: 0;
+	left: 0;
+	z-index:1000; 
+}
+
+#cos {
+	width: 851px;
+	background-color: purple;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#portada{
+	height: 315px;
+	background-image: url(img/an.jpg);
+}
+#menu {
+	height: 44px;
+	background-color: #FFF;
+	margin-bottom: 10px;
+	padding-left: 200px;
+}
+
+
+#menu ul {
+	overflow: hidden;
+	margin:0;
+	border-left: solid1px #e9ebee;
+	padding: 0;
+
+}
+#menu ul li {
+	display: block;
+	float: left;
+	height: 44px;
+	margin: 0;
+	border-right: solid 1px #e9ebee;
+}
+#menu ul li a{
+	display:block;
+	background-color: #FFF;
+	height: 44px;
+	padding: 0 18px;
+	line-height: 40px;
+	text-decoration: none;
+	color: #3b5998;
+	font-weight: 600;
+
+
+}
+
+#menu ul li a:hover
+{
+	
+	background-color: #e9ebee;
+	color:#333;
+	
+
+}
+
+
+#lateral {
+	float: left;
+	width: 323px;
+	background-color: pink;
+	overflow:hidden;
+
+}
+#perfil{
+	height: 497px;
+	background-color: #FFF;
+	margin-bottom: 10px;
+	position: relative;
+	padding: 5px;
+	
+
+}
+
+#perfil #foto{
+	z-index: 5;
+	width: 160px;
+	height:160px;
+	background-image: url(img/perfil.jpg);
+	border:solid 4px #FFF;
+	box-shadow: 4px 4px 4px #333;
+	border-radius:4px;
+	position:absolute;
+	top:-200px;
+	left:16px;
+	
+
+}
+
+#perfil #foto p{
+	width: 300px;
+	color: #FFF;
+	font-size: 1.8em;
+	position:relative;
+	left:186px;
+	top:60px;
+	text-shadow: 0 0 4px #333;
+}
+
+#perfil ul{
+	border-top: solid 1px;
+	font-size: 0.75em;
+	padding: 16px 16px 16px 36px;
+}
+
+#perfil ul li{
+	line-height: 24px;
+	text-indent: 6px;
+	border-bottom:solid 1px #e9ebee;
+	
+
+}
+
+
+
+#perfil .Estudis{
+	list-style-image: url(Icones/Estudis.png);
+
+
+}
+
+#perfil .Domicili{
+	list-style-image: url(Icones/Domicili.png);
+
+
+}
+
+#perfil .Feina{
+	list-style-image: url(Icones/Feina.png);
+
+
+}
+
+#perfil .Evento{
+	list-style-image: url(Icones/Evento.png);
+
+
+}
+
+#fotos{
+	background-color: #FFF;
+	margin-bottom: 10px;
+	
+}
+#amigos{
+	height: 497px;
+	background-color: #FFF;
+	margin-bottom: 10px;
+
+}
+
+#amigos ul {
+	margin:0;
+	padding: 0;
+	overflow: hidden;
+
+
+}
+
+#amigos ul li{
+	background-color: green;
+	margin:3px;
+	height: 101px;
+	width: 101px;
+	display:block;
+	background-image: url(img/perfil.jpg);
+	float: left;
+	color:white;
+	vertical-align: bottom;
+	text-shadow: 1px 1px #e9ebee
+}
+#publica{
+	width: 511px;
+	height: 151px;
+	background-color: red;
+	margin-bottom: 10px;
+	float: right;
+
+}
+
+
+#publica ul {
+	background-color: #f6f7f9;
+	height: 44px;
+	margin:0;
+	padding: 0;
+	border-left:solid 1px #e9ebee;
+
+}
+
+#publica ul li{
+	display:block
+	float:left;
+}
+
+#publica form{
+	background-color: red;
+	height:86px;
+	padding:14px;
+
+}
+
+#publica form imput{
+	border: none;
+	width: 485px;
+	height: 42px
+	padding:0;
+	background-image: url(img/perfil.jpg);
+	background-repeat: no-repeat;
+	background-size:  42px 42px;
+	text-indent: 56px;
+	color:#666;
+}
+
+#publica form .entrada{
+	height: 42px;
+	width: 485px;
+	border: none;
+	padding: 0;
+	background-image: url(img/perfil.jpg);
+	background-repeat: no-repeat;
+	background-size: 42px 42px;
+	text-indent:56px;
+	font-size:                                             
+}
+
+#muro1{
+	width: 511px;
+	height: 511px;
+	background-color: #FFF;
+	margin-bottom: 10px;
+	float: right;
+
+
+}
+#muro2{
+	width: 511px;
+	height: 511px;
+	background-color: #FFF;
+	margin-bottom: 10px;
+	float: right;
+
+}
+#muro3{
+	width: 511px;
+	height: 511px;
+	background-color: #FFF;
+	margin-bottom: 10px;
+	float: right;
+}

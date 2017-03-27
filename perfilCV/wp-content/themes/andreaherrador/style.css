@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/*----------------------------------------------
+
+		Theme Name: SupermegaperfilCV
+		Version:0.9
+		Author: Andrea Herrador
+		Description: Es un tema de prueba
+		Tags: 960, lila, suave, basic, modern;
+
+------------------------------------------------*/
+
+@import url('css/reset.css') screen;
+@import url('css/960_12_col.css')screen;
+@import url('css/style.css')screen;

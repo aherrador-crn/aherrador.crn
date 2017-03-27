@@ -1,0 +1,83 @@
+
+
+/* Escriptori*/
+
+	@media only screen and (min-width: 768px) {
+		body{
+			font:13px/1.5 "Helvetica Neue",Arial,"Liberation Sans";
+		}
+
+		#barra{
+			height:196px;
+			margin-top:20px;
+			background-image: url(../img/960_grid_12_col_01.png);
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+		}
+
+		#barra ul {
+			
+			overflow: hidden;
+			position: relative;
+			top: 120px;
+		}
+
+		#barra ul a{
+			color: white;
+		}
+
+		#barra ul li{
+			
+			margin:2px;
+			float:left;
+			margin:0 10px;
+			font-family: American Typewriter, Courier;
+		}
+		#cap{
+				} 
+
+		#cos{
+			height:195px;
+			background-color: blue;
+			margin-top:20px;
+			background-image: url(../img/960_grid_12_col_02.png);
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+			
+		}
+
+		#galeria{
+			height:691px;
+			margin-top:20px;
+			background-color:#cfacb3;
+			background-repeat: no-repeat;
+		}
+
+		#tema{
+			background-color: red;
+			height: 20px;
+		}	
+
+
+
+
+		#peu{
+			margin-top:30px;
+		}
+
+		#peu{
+			height:189px;
+			background-image: url(../img/960_grid_12_col_40.png);
+			background-repeat: no-repeat;
+				background-size: 100% auto;
+		}
+
+	}
+
+/*Mobil*/
+@media only screen and (max-width: 767px) {
+	
+body {
+	background-color: red;
+}
+}
